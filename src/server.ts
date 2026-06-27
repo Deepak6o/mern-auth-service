@@ -1,7 +1,3 @@
-// console.log("Welcome Deepak")
+import { Config } from './config/index.js';
 
-function startServer() {
-    console.log('Server started successfully');
-}
-
-startServer();
+console.log(Config.PORT);
