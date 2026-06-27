@@ -20,13 +20,15 @@
     "format:check": "prettier . --check",
     "lint:check": "eslint . --ext .js,.ts",
     "lint:fix": "eslint . --ext .js,.ts --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^26.0.1",
     "eslint": "^10.6.0",
     "globals": "^17.7.0",
+    "husky": "^9.1.7",
     "prettier": "3.8.5",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.0"
